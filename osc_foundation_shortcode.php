@@ -34,7 +34,7 @@ if(isset($checkplugin) && $checkplugin=='efsp'):
 else:
     add_filter( 'osc_efs_plugin_exists', 'osc_efs_plugin_exists' );
     define('EFS_PLUGIN_URL',plugins_url('/',__FILE__));
-    define('EFS_JS_CDN','http://cdn.jsdelivr.net/foundation/5.0.2/js/foundation.min.js');
+    define('EFS_JS_CDN','//cdn.jsdelivr.net/foundation/5.0.2/js/foundation.min.js');
 
     add_action('admin_enqueue_scripts', 'osc_add_admin_efs_scripts');
     add_action('wp_enqueue_scripts', 'osc_add_frontend_efs_scripts',-100);
