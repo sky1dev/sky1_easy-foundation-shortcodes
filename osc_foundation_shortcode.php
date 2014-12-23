@@ -5,7 +5,7 @@
   Plugin URI: http://www.oscitasthemes.com
   GitHub Plugin URI: https://github.com/sky1dev/sky1_easy-foundation-shortcodes
   Description: Add Zurb Foundation styles to your theme by wordpress editor shortcode buttons.
-  Version: 2.5.0
+  Version: 2.5.1
   Author: oscitas
   Author URI: http://www.oscitasthemes.com
   License: Under the GPL v2 or later
