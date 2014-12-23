@@ -85,9 +85,9 @@ else:
     }
 
     function osc_efs_add_admin_menu() {
-
+      if (is_super_admin()) { 
         add_menu_page('EFS Settings', ' EFS Settings', 'manage_options', 'efs/efs-settings.php', 'osc_efs_setting_page', plugins_url('/images/icon.png', __FILE__));
-
+      }
     }
 
     function osc_efs_setting_page() {
