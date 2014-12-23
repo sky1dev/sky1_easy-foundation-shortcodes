@@ -109,9 +109,9 @@ else:
             $efs_custom_css=isset($_POST['efs_custom_css'])?$_POST['efs_custom_css']:'' ;
             $efs_theme=isset($_POST['efs_theme'])?$_POST['efs_theme']:5 ;
         } else {
-            $js = get_option( 'EFS_FOUNDATION_JS_LOCATION', 1 );
+            $js = get_option( 'EFS_FOUNDATION_JS_LOCATION', 2 );
             $cdn = get_option( 'EFS_FOUNDATION_JS_CDN_PATH', EFS_JS_CDN );
-            $css = get_option( 'EFS_FOUNDATION_CSS_LOCATION', 1 );
+            $css = get_option( 'EFS_FOUNDATION_CSS_LOCATION', 2 );
             $efsp_editor_opt=get_option('EFS_EDITOR_OPT','icon');
             $efs_custom_css=get_option('EFS_CUSTOM_CSS','');
             $efs_theme=get_option('EFS_THEME',5);
