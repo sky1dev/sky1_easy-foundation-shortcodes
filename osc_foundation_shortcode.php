@@ -51,11 +51,11 @@ else:
     function osc_efs_activate_plugin() {
 
         // EFS_FOUNDATION_JS_LOCATION   '1' - for plugin file, '2' - don't user EFS files but use from other plugin or theme, '3' - to user CDN path
-        update_option( 'EFS_FOUNDATION_JS_LOCATION', 1 );
+        update_option( 'EFS_FOUNDATION_JS_LOCATION', 2 );
         update_option( 'EFS_FOUNDATION_JS_CDN_PATH', EFS_JS_CDN );
 
         // EFS_FOUNDATION_CSS_LOCATION   '1' - for plugin file, '2' - don't user EFS files but use from other plugin or theme
-        update_option( 'EFS_FOUNDATION_CSS_LOCATION', 1 );
+        update_option( 'EFS_FOUNDATION_CSS_LOCATION', 2 );
         update_option( 'EFS_EDITOR_OPT','icon');
         if(get_option('EFS_CUSTOM_CSS')==''){
             update_option( 'EFS_CUSTOM_CSS','');
